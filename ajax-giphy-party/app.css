@@ -1,0 +1,49 @@
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+section {
+	width: 100%;
+	display: flexbox;
+}
+
+.gif {
+	width: 250px;
+	/* height: 250px; */
+	border: solid;
+	/* display: inline-block; */
+	margin: 10px;
+}
+
+#searchBtn {
+	text-transform: uppercase;
+	background-color: black;
+	color: azure;
+	border: solid white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#searchBtn:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#clearGifs {
+	text-transform: uppercase;
+	background-color: black;
+	color: azure;
+	border: solid white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#clearGifs:hover {
+	background-color: rgba(255, 0, 0, 0.5);
+}
